@@ -9,8 +9,8 @@ public class IvaCalculatorTest {
     IVACalculator calculator = new IVACalculator();
     @Test
     public void calculateIvaOK(){
-        double result = calculator.calculateIVA(100);
-        assertEquals(21.0,result,0.0001);
+        double result = calculator.calculateIVA(50.12);
+        assertEquals(10.5252,result,0.000000001);
     }
     @Test
     public void calculateIvaZero(){
