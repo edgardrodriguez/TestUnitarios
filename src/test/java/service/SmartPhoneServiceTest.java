@@ -1,3 +1,5 @@
+package service;
+
 import org.example.domain.SmartPhone;
 import org.example.domain.pieces.Battery;
 import org.example.domain.pieces.CPU;
@@ -7,7 +9,6 @@ import org.example.service.SmartPhoneServiceImpl;
 import org.junit.Test;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.Assert.*;
 
